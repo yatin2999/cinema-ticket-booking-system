@@ -1,0 +1,2 @@
+# Text files use LF in the repository and in every checkout.
+* text=auto eol=lf

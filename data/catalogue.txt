@@ -1,0 +1,21 @@
+# Default catalogue for the Cinema Ticket Booking System, UTF-8 text.
+# Each record is one line of fields separated by '|'; spaces around fields are ignored.
+# Blank lines and lines starting with '#' are ignored.
+
+# AUDITORIUM | id | name | rows | seats per row | premium rows (counted from the back)
+AUDITORIUM | AUD1 | Audi 1 | 8 | 12 | 2
+AUDITORIUM | AUD2 | Audi 2 | 6 | 10 | 1
+
+# MOVIE | id | title | runtime in minutes | short description (optional)
+MOVIE | MOV1 | Titanic | 195 | A romance unfolds aboard the ill-fated ocean liner.
+MOVIE | MOV2 | Zootopia | 108 | A rookie police officer investigates a mystery in a city of animals.
+MOVIE | MOV3 | Inside Out | 95 | A young girl's emotions navigate an unexpected life change.
+MOVIE | MOV4 | Inception | 148 | A skilled thief enters dreams to plant an idea.
+MOVIE | MOV5 | Interstellar | 169 | Explorers journey beyond Earth in search of humanity's future.
+
+# SHOW | id | movie id | auditorium id | start (yyyy-MM-dd HH:mm)
+SHOW | SHW1 | MOV2 | AUD2 | 2026-11-06 10:30
+SHOW | SHW2 | MOV1 | AUD1 | 2026-11-06 13:15
+SHOW | SHW3 | MOV3 | AUD2 | 2026-11-06 16:00
+SHOW | SHW4 | MOV4 | AUD1 | 2026-11-06 19:30
+SHOW | SHW5 | MOV5 | AUD1 | 2026-11-06 22:15
